@@ -1,0 +1,121 @@
+body{
+    background-color: wheat ;
+    font-size: 20px;
+}
+
+h1{
+    color: hotpink;
+    font-size: 40px;
+    text-decoration: bold;
+    font-family: fantasy;
+    background-color: lightblue;
+    text-align: center;
+    border: 4px dashed crimson
+}
+
+a.Home:link ,a.Home:visited {
+    color: slategrey;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 5px;
+    padding: 2px;
+}
+
+a.Home:hover , a.Home:active {
+    color:mediumvioletred;
+    text-decoration: underline;
+}
+
+
+img.mainimg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px solid darkcyan;
+}
+
+a.offlink:link , a.offlink:visited {
+    font-size: 20px;
+    text-decoration: underline;
+    color: turquoise;
+    margin:5px;
+    padding: 2px;
+}
+
+a.offlink:hover {
+    color: tomato;
+}
+h2{
+    font-size: 30px;
+    color: darkkhaki;
+    text-align: center;
+}
+ul{
+    list-style-type: none;
+    padding: 5px;
+}
+img.mask{
+    float: left;
+    height: 60%;
+    width: 55%;
+}
+img.wash{
+    float: right;
+    width: 60%;
+}
+ table ,td {
+     border: 2px solid burlywood;
+     background-color: whitesmoke;
+     color: darkturquoise;
+     text-align: center;
+ }
+ table ,th {
+    border: 2px solid burlywood;
+    background-color: whitesmoke;
+    color: tomato;
+    text-align: center;
+    font-size: 20px;
+ }
+ table{
+     width: 70%;
+     height:60%;
+     margin-left: 15%;
+     margin-right: 15%;
+ }
+
+ ol {
+     list-style-type: none;
+     margin-left: 10%;
+     margin-right: 10%;
+     
+ }
+li:nth-child(1) {
+    background-color: skyblue;
+}
+li:nth-child(2) {
+    background-color: violet;
+}
+li:nth-child(3) {
+    background-color: skyblue;
+}
+
+iframe.utube {
+    margin-left: 30%;
+}
+div.end {
+    background-color: slateblue;
+    font-size: 30px;
+    text-align: center;
+}
+a.git:link, a.git:visited {
+    color: violet ;
+}
+a.git:hover, a.git:active {
+    color:skyblue
+} 
+a.gmail:link, a.gmail:visited {
+    color: violet;
+}
+a.gmail:hover, a.gmail:active {
+    color:skyblue
+} 
